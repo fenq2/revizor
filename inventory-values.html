@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Инвентаризация товарно-материальных ценностей</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/general/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/general/logo.png">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" id="top"><a class="scrolltop" href="#top">
+          <svg class="svg-icon icon-arrow2 scrolltop__arrow">
+            <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow2"></use>
+          </svg></a>
+        <header class="header">
+          <div class="container">
+            <div class="header__wrap"><a class="logo" href="/"><img class="logo__img" src="images/general/logo.png" alt=""/></a><a class="header__location location js-popup-link" href="#popup-location">
+                <div class="location__header">
+                  <svg class="svg-icon icon-location location__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                  </svg><span class="location__current">Санкт-Петербург</span>
+                </div></a>
+              <nav class="header__nav main-nav">
+                <ul class="main-nav__list">
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">О компании</a>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Услуги</a>
+                    <svg class="svg-icon icon-arrow main-nav__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                    <div class="main-nav__dropdown">
+                      <ul class="main-nav__sublist">
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Экспертная инвентаризация</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация основных средств и имущества</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация товарно-материальных ценностей</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Предоставление счетчиков-ревизоров</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация материалов</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация оборудования</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация офиса</a></li>
+                        <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация компьютера</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Стоимость</a>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Нам доверяют</a>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Новости</a>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Вакансии</a>
+                  </li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="phone">
+                <svg class="svg-icon icon-phone phone__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                </svg>
+                <div class="phone__info"><a class="phone__link" href="tel:88000000000">8 (800) 000-00-00</a><a class="phone__callback-link js-popup-link" href="#popup-callback">Заказать звонок</a></div>
+              </div>
+              <div class="sandwich">
+                <button class="sandwich__open-btn" type="button"><span class="sandwich__line"></span><span class="sandwich__line"></span><span class="sandwich__line"></span></button>
+                <div class="sandwich__content"></div>
+                <div class="sandwich__menu">
+                  <div class="sandwich__header"><a class="location js-popup-link" href="#popup-location">
+                      <div class="location__header">
+                        <svg class="svg-icon icon-location location__icon">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                        </svg><span class="location__current">Санкт-Петербург</span>
+                      </div></a>
+                    <button class="sandwich__close-btn" type="button">
+                      <svg class="svg-icon icon-close sandwich__close-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <nav class="main-nav">
+                    <ul class="main-nav__list">
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">О компании</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Услуги</a>
+                        <svg class="svg-icon icon-arrow main-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg>
+                        <div class="main-nav__dropdown">
+                          <ul class="main-nav__sublist">
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Экспертная инвентаризация</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация основных средств и имущества</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация товарно-материальных ценностей</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Предоставление счетчиков-ревизоров</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация материалов</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация оборудования</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация офиса</a></li>
+                            <li class="main-nav__subitem"><a class="main-nav__sublink" href="inventory-expert.html">Инвентаризация компьютера</a></li>
+                          </ul>
+                        </div>
+                        <div class="outer-menu">
+                          <div class="sandwich__header">
+                            <button class="outer-menu__back">
+                              <svg class="svg-icon icon-arrow outer-menu__back-arrow">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="outer-menu__back-text">Назад</span>
+                            </button>
+                            <button class="sandwich__close-btn" type="button">
+                              <svg class="svg-icon icon-close sandwich__close-icon">
+                                <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                              </svg>
+                            </button>
+                          </div>
+                          <nav class="outer-menu__nav">
+                            <ul class="outer-menu__nav-list">
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Экспертная инвентаризация</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация основных средств и имущества</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация товарно-материальных ценностей</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Предоставление счетчиков-ревизоров</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация материалов</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация оборудования</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация офиса</a></li>
+                              <li class="outer-menu__nav-item"><a class="outer-menu__nav-link" href="javascript:void(0);">Инвентаризация компьютера   </a></li>
+                            </ul>
+                          </nav>
+                          <div class="contacts-prev sandwich__contacts-prev"><span class="section-title contacts-prev__title">Контакты</span>
+                            <p class="contacts-prev__desc">Наши сотрудники настоящие эксперты, поэтому они ответят на любые ваши вопросы.</p>
+                            <div class="contacts-prev__info">
+                              <div class="contacts-prev__block"> 
+                                <div class="contacts-prev__item"> 
+                                  <svg class="svg-icon icon-phone contacts-prev__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                                  </svg><a class="contacts-prev__text contacts-prev__phone contacts-prev__link" href="tel:+74951457973">+7 (495) 145-79-73</a>
+                                </div>
+                                <div class="contacts-prev__item"> 
+                                  <svg class="svg-icon icon-mail contacts-prev__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#mail"></use>
+                                  </svg><a class="contacts-prev__text contacts-prev__link" href="mailto:info@rvzr.ru">info@rvzr.ru</a>
+                                </div>
+                              </div>
+                              <div class="contacts-prev__block"> 
+                                <div class="contacts-prev__item contacts-prev__item--small"> 
+                                  <svg class="svg-icon icon-location contacts-prev__icon">
+                                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                                  </svg><span class="contacts-prev__text">г. Москва 3-й проезд Марьиной Рощи, д.40, стр 11, этаж 10</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="contacts-prev__footer"> <a class="btn contacts-prev__offer-btn js-popup-link" href="#popup-offer">Оставить заявку</a></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Стоимость</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Нам доверяют</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Новости</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Вакансии</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="javascript:void(0);">Контакты</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="contacts-prev sandwich__contacts-prev"><span class="section-title contacts-prev__title">Контакты</span>
+                    <p class="contacts-prev__desc">Наши сотрудники настоящие эксперты, поэтому они ответят на любые ваши вопросы.</p>
+                    <div class="contacts-prev__info">
+                      <div class="contacts-prev__block"> 
+                        <div class="contacts-prev__item"> 
+                          <svg class="svg-icon icon-phone contacts-prev__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                          </svg><a class="contacts-prev__text contacts-prev__phone contacts-prev__link" href="tel:+74951457973">+7 (495) 145-79-73</a>
+                        </div>
+                        <div class="contacts-prev__item"> 
+                          <svg class="svg-icon icon-mail contacts-prev__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#mail"></use>
+                          </svg><a class="contacts-prev__text contacts-prev__link" href="mailto:info@rvzr.ru">info@rvzr.ru</a>
+                        </div>
+                      </div>
+                      <div class="contacts-prev__block"> 
+                        <div class="contacts-prev__item contacts-prev__item--small"> 
+                          <svg class="svg-icon icon-location contacts-prev__icon">
+                            <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                          </svg><span class="contacts-prev__text">г. Москва 3-й проезд Марьиной Рощи, д.40, стр 11, этаж 10</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts-prev__footer"> <a class="btn contacts-prev__offer-btn js-popup-link" href="#popup-offer">Оставить заявку</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="section-header">
+          <div class="container">
+            <div class="section-header__wrap">
+              <div class="section-header__main">
+                <div class="breadcrumbs"><a class="breadcrumbs__back" href="/">
+                    <svg width="6" height="11" viewbox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 9.5L1 5.5L5 1.5" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg><span class="breadcrumbs__back-title">Назад</span></a>
+                  <div class="breadcrumbs__links"><a class="breadcrumbs__link" href="/">Главная</a><a class="breadcrumbs__link" href="/">Услуги</a><span class="breadcrumbs__current">Инвентаризация товарно-материальных ценностей</span>
+                  </div>
+                </div>
+                <h1 class="section-title section-header__title section-header__title--big">Инвентаризация товарно-материальных ценностей</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <main class="main main--padding">
+          <div class="container">
+            <div class="section-block section-block--padding section-block--mob-margin section-block--big">
+              <div class="section-block__wrap"><span class="section-title section-block__title">Об услуге</span>
+                <p class="section-block__desc section-block__desc--small">Товарно-материальными ценностями (ТМЦ) принято считать всю ту продукцию, которая уже прошла стадию производства, но еще не вступила в стадию потребления, и при этом находится на балансе компании. Проводится независимая инвентаризация ТМЦ на складе или на предприятиях розничной торговли, причем вне зависимости от объема торговли (гипермаркет или небольшой продуктовый магазин). <br><br>В рамках услуги - инвентаризация товарных запасов, наша компания проводит инвентаризацию материалов. <br><br>Но не застрахованы от инвентаризации и рестораны, аптеки, выставочные залы и прочие заведения, где осуществляется товарно-денежный обмен между производителем (продавцом) и покупателем товаров и услуг.</p>
+                <p class="section-block__desc section-block__desc--padding section-block__desc--small">Но и в том, и в другом случае без специалистов по инвентаризации не обойтись, потому что только они способны обучить всех сотрудников работе со специальным ПО, скоординировать их деятельность по пересчету товаров и свести разрозненные результаты в единый отчет, который заказчик затем сможет использовать в своих интересах.</p>
+              </div>
+              <div class="section-block__img"><img class="section-block__img-pic" src="images/content/section-img3.jpg" alt=""></div>
+            </div>
+            <div class="section-block section-block--margin section-block--padding"><span class="section-title section-block__title">НАЗНАЧЕНИЕ</span>
+              <div class="section-block__row">
+                <p class="section-block__desc section-block__desc--small">Проверка фактического наличия товара и сравнение с данными бухгалтерского учета. В результате Заказчик получает достоверные данные о недостачах, излишках и пересорте товара, на основании которых можно принять необходимые управленческие решения, например, по организации системы безопасности на объекте.</p>
+              </div>
+            </div>
+            <div class="section-block section-block--margin section-block--padding"><span class="section-title section-block__title">ИТОГ</span>
+              <p class="section-block__desc">Порядок проведения независимой инвентаризации товарных запасов (ТЦМ) определяется в соответствии с законодательством РФ, и по результатам ее нами заполняется ведомость ИНВ-3, ИНВ-19.</p>
+            </div>
+          </div>
+          <div class="offer-block">
+            <div class="container">
+              <div class="section-block section-block--small section-block--padding"><span class="section-title section-title--small section-block__title">как формируется стоимость</span>
+                <p class="section-block__desc">За посчитанную единицу ОС</p>
+              </div>
+              <div class="offer-block__right"><a class="offer-block__btn" href="/">заказать инвентаризацию</a></div>
+            </div>
+          </div>
+        </main>
+        <div class="process-project">
+          <div class="container">
+            <div class="process-project__list">
+              <div class="process-project__side"><span class="section-title section-title--small process-project__title">Этапы работы над проектом</span></div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">01</span></div>
+                  </div><span class="process-project__item-desc">Запрос номенклатурного справочника Заказчика</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">02</span></div>
+                  </div><span class="process-project__item-desc">Согласование технологии проведения инвентаризации</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">03</span></div>
+                  </div><span class="process-project__item-desc">Прибытие на объект инвентаризационной команды</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">04</span></div>
+                  </div><span class="process-project__item-desc">Зонирование объекта</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">05</span></div>
+                  </div><span class="process-project__item-desc">Фактический пересчет ТМЦ</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">06</span></div>
+                  </div><span class="process-project__item-desc">Разбор расхождений между фактом и данным бух.учета</span>
+                </div>
+              </div>
+              <div class="process-project__side">
+                <div class="process-project__item">
+                  <div class="process-project__item-left">
+                    <div class="process-project__item-step"><span class="process-project__item-num">07</span></div>
+                  </div><span class="process-project__item-desc">Предоставление итогового отчета</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container"> 
+            <div class="footer__wrap"> 
+              <div class="footer__side"><a class="footer__logo logo" href="/"><img class="logo__img" src="images/general/logo2.png" alt=""/></a>
+                <div class="footer__info"> 
+                  <div class="footer__policy"> <a class="footer__policy-link" href="/">Политика конфиденциальности</a><a class="footer__policy-link" href="/">Согласие на обработку персональных данных</a></div>
+                  <p class="footer__copy">© 2021, Ревизор - Независимая инвентаризация</p>
+                </div>
+              </div>
+              <div class="social footer__social"><a class="social__link" href="/">
+                  <svg width="12" height="25" viewbox="0 0 12 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.80918 4.15104H12V0.176042C11.622 0.121875 10.3221 0 8.80827 0C5.64953 0 3.48571 2.06979 3.48571 5.87396V9.375H0V13.8188H3.48571V25H7.75935V13.8198H11.1041L11.635 9.37604H7.75835V6.31458C7.75935 5.03021 8.09133 4.15104 9.80918 4.15104Z" fill="#9C9C9C"></path>
+                  </svg></a><a class="social__link" href="/">
+                  <svg width="32" height="18" viewbox="0 0 32 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31.2192 16.0549C31.1346 15.9129 30.6108 14.7732 28.0907 12.4306C25.4523 9.97766 25.8067 10.376 28.9845 6.13455C30.92 3.55145 31.6937 1.97398 31.4516 1.29961C31.2212 0.656789 29.7977 0.826367 29.7977 0.826367L25.0645 0.853973C25.0645 0.853973 24.714 0.806649 24.4521 0.962424C24.1982 1.11623 24.0347 1.47116 24.0347 1.47116C24.0347 1.47116 23.2846 3.4706 22.2844 5.17032C20.1757 8.7571 19.331 8.94639 18.9865 8.72357C18.1852 8.20498 18.386 6.63737 18.386 5.52526C18.386 2.04891 18.9117 0.599606 17.3602 0.224956C16.8443 0.100731 16.4663 0.0179136 15.1491 0.00411071C13.4598 -0.0136358 12.0284 0.0100262 11.2192 0.406366C10.6797 0.670592 10.2643 1.26017 10.5183 1.29369C10.8313 1.3351 11.5401 1.48496 11.9162 1.99764C12.4025 2.6582 12.3848 4.14497 12.3848 4.14497C12.3848 4.14497 12.6644 8.23653 11.7331 8.74527C11.0932 9.09428 10.217 8.38245 8.33674 5.12694C7.37395 3.46074 6.64546 1.61707 6.64546 1.61707C6.64546 1.61707 6.50567 1.27397 6.25562 1.09059C5.95241 0.867776 5.52713 0.79679 5.52713 0.79679L1.02623 0.824395C1.02623 0.824395 0.350903 0.844114 0.102822 1.13792C-0.117694 1.40017 0.085102 1.94045 0.085102 1.94045C0.085102 1.94045 3.60942 10.1965 7.5984 14.3591C11.2586 18.1746 15.4129 17.9242 15.4129 17.9242H17.2952C17.2952 17.9242 17.8642 17.8611 18.1536 17.5475C18.4214 17.2597 18.4116 16.7194 18.4116 16.7194C18.4116 16.7194 18.3742 14.1895 19.5476 13.8168C20.7034 13.4501 22.1879 16.2619 23.7611 17.3444C24.9503 18.1628 25.854 17.9833 25.854 17.9833L30.0615 17.9242C30.0615 17.9242 32.2627 17.7881 31.2192 16.0549Z" fill="#9C9C9C"></path>
+                  </svg></a><a class="social__link" href="/">
+                  <svg width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.9365 7.35009C24.878 6.02174 24.6631 5.10851 24.3553 4.31719C24.0378 3.47721 23.5494 2.72519 22.9094 2.10003C22.2841 1.46513 21.527 0.971796 20.6966 0.659311C19.9005 0.351594 18.9919 0.136784 17.6633 0.0782168C16.3247 0.0146895 15.8998 0 12.5049 0C9.11002 0 8.68509 0.0146895 7.35152 0.0732567C6.02291 0.131824 5.1095 0.346825 4.31821 0.65435C3.47789 0.971796 2.72572 1.46017 2.10043 2.10003C1.46542 2.72519 0.972175 3.48217 0.659438 4.31242C0.351662 5.10851 0.136811 6.01678 0.078232 7.34513C0.0146923 8.6834 0 9.10825 0 12.5025C0 15.8967 0.0146923 16.3216 0.0732709 17.6549C0.13185 18.9832 0.346892 19.8964 0.654668 20.6878C0.972175 21.5277 1.46542 22.2798 2.10043 22.9049C2.72572 23.5398 3.48285 24.0332 4.31325 24.3456C5.1095 24.6534 6.01795 24.8682 7.34675 24.9267C8.68012 24.9855 9.10525 25 12.5001 25C15.895 25 16.32 24.9855 17.6535 24.9267C18.9821 24.8682 19.8955 24.6534 20.6868 24.3456C22.3673 23.6961 23.6959 22.3677 24.3456 20.6878C24.6532 19.8917 24.8682 18.9832 24.9268 17.6549C24.9854 16.3216 25.0001 15.8967 25.0001 12.5025C25.0001 9.10825 24.9951 8.6834 24.9365 7.35009ZM22.6848 17.5572C22.631 18.7781 22.4259 19.4375 22.2549 19.877C21.8347 20.9661 20.9702 21.8305 19.8808 22.2506C19.4412 22.4215 18.777 22.6266 17.5606 22.6802C16.2417 22.739 15.8462 22.7535 12.5099 22.7535C9.17356 22.7535 8.77305 22.739 7.45894 22.6802C6.23776 22.6266 5.57832 22.4215 5.1387 22.2506C4.59661 22.0503 4.10317 21.7328 3.70266 21.3177C3.28746 20.9123 2.96995 20.4239 2.7696 19.882C2.59864 19.4424 2.39352 18.7781 2.3399 17.5622C2.28113 16.2435 2.26663 15.8479 2.26663 12.5122C2.26663 9.17655 2.28113 8.77612 2.3399 7.46246C2.39352 6.24151 2.59864 5.5822 2.7696 5.14266C2.96995 4.60048 3.28746 4.10734 3.70762 3.70671C4.1129 3.29159 4.60138 2.97415 5.14366 2.77403C5.58328 2.60309 6.24768 2.39801 7.4639 2.34422C8.78278 2.28565 9.17852 2.27096 12.5146 2.27096C15.8559 2.27096 16.2515 2.28565 17.5656 2.34422C18.7867 2.39801 19.4462 2.60309 19.8858 2.77403C20.4279 2.97415 20.9213 3.29159 21.3218 3.70671C21.737 4.11211 22.0545 4.60048 22.2549 5.14266C22.4259 5.5822 22.631 6.24628 22.6848 7.46246C22.7434 8.78108 22.7581 9.17655 22.7581 12.5122C22.7581 15.8479 22.7434 16.2386 22.6848 17.5572Z" fill="#9C9C9C"></path>
+                    <path d="M12.505 6.0803C8.95877 6.0803 6.08154 8.95677 6.08154 12.5025C6.08154 16.0482 8.95877 18.9246 12.505 18.9246C16.0514 18.9246 18.9284 16.0482 18.9284 12.5025C18.9284 8.95677 16.0514 6.0803 12.505 6.0803ZM12.505 16.6684C10.2044 16.6684 8.33825 14.8028 8.33825 12.5025C8.33825 10.2021 10.2044 8.33657 12.505 8.33657C14.8058 8.33657 16.6717 10.2021 16.6717 12.5025C16.6717 14.8028 14.8058 16.6684 12.505 16.6684Z" fill="#9C9C9C"></path>
+                    <path d="M20.6821 5.82638C20.6821 6.65434 20.0106 7.32567 19.1823 7.32567C18.3542 7.32567 17.6828 6.65434 17.6828 5.82638C17.6828 4.99824 18.3542 4.3271 19.1823 4.3271C20.0106 4.3271 20.6821 4.99824 20.6821 5.82638Z" fill="#9C9C9C"></path>
+                  </svg></a><a class="social__link" href="/">
+                  <svg width="16" height="25" viewbox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.235742 13.4177C-0.418218 14.6729 0.324288 15.2729 2.0184 16.2979C3.4586 17.1666 5.44822 17.4843 6.72627 17.6114C6.20246 18.1031 8.6028 15.8489 1.68982 22.3416C0.224007 23.7135 2.58381 25.9145 4.04855 24.5718L8.01392 20.8374C9.532 22.2635 10.9871 23.6301 11.9793 24.577C13.4451 25.9249 15.8038 23.7426 14.354 22.3468C14.2452 22.2458 8.98045 17.3145 9.30157 17.6166C10.5956 17.4895 12.5554 17.1531 13.9785 16.3031L13.9774 16.302C15.6715 15.2718 16.414 14.6729 15.7697 13.4177C15.3803 12.7052 14.3305 12.1093 12.933 13.1395C12.933 13.1395 11.0458 14.551 8.00218 14.551C4.95748 14.551 3.07135 13.1395 3.07135 13.1395C1.67488 12.1041 0.620863 12.7052 0.235742 13.4177Z" fill="#9C9C9C"></path>
+                    <path d="M8.00006 12.6479C11.7105 12.6479 14.7402 9.81662 14.7402 6.33122C14.7402 2.83124 11.7105 0 8.00006 0C4.28859 0 1.25882 2.83124 1.25882 6.33122C1.25882 9.81662 4.28859 12.6479 8.00006 12.6479ZM8.00006 3.20728C9.82326 3.20728 11.3104 4.60415 11.3104 6.33122C11.3104 8.04371 9.82326 9.44058 8.00006 9.44058C6.17686 9.44058 4.68971 8.04371 4.68971 6.33122C4.68865 4.6031 6.1758 3.20728 8.00006 3.20728Z" fill="#9C9C9C"></path>
+                  </svg></a><a class="social__link" href="/">
+                  <svg width="26" height="22" viewbox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.2022 14.4995L9.7721 20.6418C10.3874 20.6418 10.6539 20.3734 10.9735 20.0511L13.8585 17.2517L19.8365 21.6967C20.9329 22.3171 21.7053 21.9904 22.0011 20.6726L25.925 2.00354L25.9261 2.00244C26.2738 0.356844 25.34 -0.286652 24.2718 0.117045L1.20705 9.0831C-0.367066 9.7035 -0.343232 10.5945 0.939465 10.9982L6.83619 12.8605L20.5331 4.15842C21.1777 3.72503 21.7638 3.96483 21.2817 4.39822L10.2022 14.4995Z" fill="#9C9C9C"></path>
+                  </svg></a></div>
+              <div class="footer__contacts"> 
+                <div class="footer__contacts-item footer__contacts-item--big"> 
+                  <svg width="13" height="18" viewbox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 0C2.91569 0 0 3.02818 0 6.75C0 11.7297 5.99713 17.6484 6.25246 17.8982C6.32227 17.9659 6.41113 18 6.5 18C6.58887 18 6.67773 17.9659 6.74757 17.8982C7.00287 17.6484 13 11.7297 13 6.75C13 3.02818 10.0843 0 6.5 0ZM6.5 17.1002C5.36517 15.9236 0.722211 10.8574 0.722211 6.75C0.722211 3.44166 3.31419 0.749988 6.5 0.749988C9.68581 0.749988 12.2778 3.44166 12.2778 6.75C12.2778 10.8574 7.63482 15.9236 6.5 17.1002Z" fill="#1C47B7"></path>
+                    <path d="M6.46382 3.00003C4.49268 3.00003 2.88882 4.53156 2.88882 6.41382C2.88882 8.29608 4.49271 9.82761 6.46382 9.82761C8.43494 9.82761 10.0388 8.29608 10.0388 6.41382C10.0388 4.53156 8.43497 3.00003 6.46382 3.00003ZM6.46382 9.14484C4.88648 9.14484 3.60384 7.91968 3.60384 6.41382C3.60384 4.90796 4.88652 3.68281 6.46382 3.68281C8.04113 3.68281 9.3238 4.90796 9.3238 6.41382C9.3238 7.91968 8.04116 9.14484 6.46382 9.14484Z" fill="#1C47B7"></path>
+                  </svg><span class="footer__contacts-text">г. Москва 3-й проезд Марьиной Рощи, д.40, стр 11, этаж 10</span>
+                </div><a class="footer__contacts-item footer__contacts-link" href="mailto:info@rvzr.ru">
+                  <svg width="15" height="11" viewbox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.75 0H1.25001C0.560596 0 0 0.548138 0 1.22223V9.7778C0 10.4519 0.560596 11 1.25001 11H13.75C14.4394 11 15 10.4519 15 9.77777V1.22223C15 0.548138 14.4394 0 13.75 0ZM1.25001 0.611102H13.75C13.7961 0.611102 13.8367 0.627516 13.8799 0.636797C12.7977 1.60523 9.20927 4.81505 7.95352 5.92132C7.85525 6.00786 7.69688 6.1111 7.50003 6.1111C7.30318 6.1111 7.1448 6.00786 7.04622 5.92104C5.79059 4.81493 2.20198 1.60494 1.11996 0.636854C1.16326 0.627573 1.20393 0.611102 1.25001 0.611102ZM0.62499 9.77777V1.22223C0.62499 1.16236 0.643447 1.10805 0.659971 1.05334C1.48825 1.79458 3.99208 4.03422 5.6156 5.47777C3.99735 6.83693 1.49288 9.15862 0.658008 9.93704C0.643271 9.88508 0.62499 9.83426 0.62499 9.77777ZM13.75 10.3889H1.25001C1.20009 10.3889 1.1557 10.3719 1.10909 10.361C1.9718 9.55685 4.49221 7.22181 6.082 5.89199C6.28925 6.07581 6.47856 6.24342 6.6278 6.3749C6.88538 6.60229 7.18687 6.72223 7.5 6.72223C7.81313 6.72223 8.11462 6.60226 8.37188 6.37519C8.52117 6.24365 8.71064 6.0759 8.918 5.89199C10.5079 7.22167 13.0279 9.55654 13.8909 10.361C13.8443 10.3719 13.8 10.3889 13.75 10.3889ZM14.375 9.77777C14.375 9.83423 14.3567 9.88508 14.342 9.93704C13.5068 9.15822 11.0026 6.83679 9.38443 5.4778C11.008 4.03425 13.5115 1.7948 14.34 1.05328C14.3566 1.10799 14.375 1.16233 14.375 1.2222V9.77777Z" fill="#1C47B7"></path>
+                  </svg><span class="footer__contacts-text">info@rvzr.ru</span></a>
+                <div class="footer__contacts-item"> 
+                  <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.5 0C2.91596 0 0 2.91596 0 6.5C0 10.084 2.91596 13 6.5 13C10.084 13 13 10.084 13 6.5C13 2.91596 10.084 0 6.5 0ZM6.77084 12.4446C6.22916 12.4446 6.77084 12.4446 6.22916 12.4446C3.16024 12.3056 0.694332 9.83976 0.555369 6.77082C0.555369 6.22916 0.555369 6.77082 0.555369 6.22916C0.694332 3.16024 3.16022 0.694332 6.22916 0.555369C6.77084 0.555369 6.22916 0.555369 6.77084 0.555369C9.83976 0.694332 12.3057 3.16022 12.4446 6.22916C12.4446 6.77084 12.4446 6.22916 12.4446 6.77084C12.3057 9.83976 9.83976 12.3057 6.77084 12.4446Z" fill="#1C47B7"></path>
+                    <path d="M7.01494 6.63198C7.02614 6.58864 7.04166 6.5468 7.04166 6.5C7.04166 6.38663 6.99854 6.28718 6.93875 6.20011L8.64127 2.55204C8.70449 2.41663 8.64604 2.25527 8.51035 2.19208C8.3752 2.12989 8.21386 2.18783 8.15039 2.32299L6.44909 5.96865C6.17548 5.99564 5.95834 6.21946 5.95834 6.5C5.95834 6.7986 6.2014 7.04166 6.5 7.04166C6.54677 7.04166 6.58864 7.02615 6.63198 7.01495L8.746 9.12897C8.79889 9.18186 8.86821 9.20832 8.9375 9.20832C9.00679 9.20832 9.07608 9.18186 9.12899 9.12897C9.2348 9.02317 9.2348 8.85178 9.12899 8.74601L7.01494 6.63198Z" fill="#1C47B7"></path>
+                  </svg><span class="footer__contacts-text">9:30–19:30</span>
+                </div>
+              </div>
+              <div class="footer__block"> 
+                <div class="phone footer__phone">
+                  <svg width="10" height="20" viewbox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.52941 0H1.47059C1.0807 0.000480264 0.706903 0.170565 0.431209 0.472939C0.155515 0.775313 0.000437888 1.18528 0 1.6129V18.3871C0.000437888 18.8147 0.155515 19.2247 0.431209 19.5271C0.706903 19.8294 1.0807 19.9995 1.47059 20H8.52941C8.9193 19.9995 9.2931 19.8294 9.56879 19.5271C9.84449 19.2247 9.99956 18.8147 10 18.3871V1.6129C9.99956 1.18528 9.84449 0.775313 9.56879 0.472939C9.2931 0.170565 8.9193 0.000480264 8.52941 0ZM6.99419 0.645161L6.81772 1.6129H3.18232L3.00585 0.645161H6.99419ZM9.41177 18.3871C9.4115 18.6437 9.31846 18.8897 9.15304 19.0711C8.98762 19.2525 8.76335 19.3546 8.52941 19.3548H1.47059C1.23665 19.3546 1.01238 19.2525 0.84696 19.0711C0.681544 18.8897 0.588498 18.6437 0.588235 18.3871V1.6129C0.588498 1.35633 0.681544 1.11035 0.84696 0.928925C1.01238 0.7475 1.23665 0.645449 1.47059 0.645161H2.40592L2.65276 1.99875C2.66609 2.07188 2.70212 2.13768 2.7547 2.18495C2.80729 2.23223 2.87318 2.25807 2.94118 2.25806H7.05882C7.12682 2.25807 7.19271 2.23223 7.2453 2.18495C7.29788 2.13768 7.33391 2.07188 7.34724 1.99875L7.59408 0.645161H8.52941C8.76335 0.645449 8.98762 0.7475 9.15304 0.928925C9.31846 1.11035 9.4115 1.35633 9.41177 1.6129V18.3871Z" fill="#1C47B7"></path>
+                  </svg>
+                  <div class="phone__info"><a class="phone__link" href="tel:88000000000">+7 (495) 145-79-73</a></div>
+                </div><a class="btn footer__callback-btn js-popup-link" href="#popup-offer">Оставить заявку</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="popup popup-location" id="popup-location">
+          <div class="popup__body">
+            <div class="popup__content">
+              <div class="popup__header"><span class="popup__title popup-location__title">Выберите город</span>
+                <button class="popup__close close-popup">
+                  <svg class="svg-icon icon-close popup__close-icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                  </svg>
+                </button>
+              </div>
+              <ul class="popup-location__list">
+                <li class="popup-location__item">Москва</li>
+                <li class="popup-location__item">Санкт-Петербург</li>
+                <li class="popup-location__item">Архангельск</li>
+                <li class="popup-location__item">Екатеринбург</li>
+                <li class="popup-location__item">Астрахань</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="popup popup-callback" id="popup-callback">
+          <div class="popup__body">
+            <div class="popup__content">
+              <button class="popup__close close-popup">
+                <svg class="svg-icon icon-close popup__close-icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                </svg>
+              </button>
+              <div class="popup__content-wrap"><span class="popup__title">Заказать звонок</span><span class="popup__desc">Давайте мы вам перезвоним</span>
+                <form class="popup__form" action="" method="post">
+                  <div class="popup__form-main">
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-user popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                      </svg>
+                      <input class="popup__form-field" type="text" placeholder="Имя"/>
+                    </div>
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-phone popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                      </svg>
+                      <input class="popup__form-field" type="phone" placeholder="+ 7 (499) 54"/>
+                    </div>
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-mail popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#mail"></use>
+                      </svg>
+                      <input class="popup__form-field" type="email" placeholder="Почта"/>
+                    </div>
+                  </div>
+                  <input class="btn popup__form-send" type="submit" value="Оставить заявку"/>
+                  <div class="popup__form-checkbox">
+                    <input class="popup__form-check" type="checkbox" id="popup__form-check1"/>
+                    <label class="popup__form-label" for="popup__form-check1">Согласен на обработу персональных данных</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup popup--dark popup-offer" id="popup-offer">
+          <div class="popup__body">
+            <div class="popup__content">
+              <button class="popup__close close-popup">
+                <svg class="svg-icon icon-close popup__close-icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                </svg>
+              </button>
+              <div class="popup__content-wrap"><span class="popup__title">Оставить заявку</span><span class="popup__desc">Давайте мы вам перезвоним</span>
+                <form class="popup__form" action="" method="post">
+                  <div class="popup__form-main">
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-user popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#user"></use>
+                      </svg>
+                      <input class="popup__form-field" type="text" placeholder="Имя"/>
+                    </div>
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-phone popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                      </svg>
+                      <input class="popup__form-field" type="phone" placeholder="+ 7 (499) 54"/>
+                    </div>
+                    <div class="popup__form-group">
+                      <svg class="svg-icon icon-mail popup__form-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#mail"></use>
+                      </svg>
+                      <input class="popup__form-field" type="email" placeholder="Почта"/>
+                    </div>
+                  </div>
+                  <input class="btn popup__form-send" type="submit" value="Оставить заявку"/>
+                  <div class="popup__form-checkbox">
+                    <input class="popup__form-check" type="checkbox" id="popup__form-check2"/>
+                    <label class="popup__form-label" for="popup__form-check2">Согласен на обработу персональных данных</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CArray.prototype.includes%2CElement.prototype.before%2CDOMTokenList.prototype.forEach%2CNodeList.prototype.forEach%2CObject.entries%2CNumber.isNaN%2CString.prototype.repeat"></script>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
